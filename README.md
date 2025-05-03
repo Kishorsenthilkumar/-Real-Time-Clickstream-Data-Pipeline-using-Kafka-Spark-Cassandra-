@@ -10,5 +10,6 @@ Steps To Implement :
 2. set the path in the environment variable (windows) and bashrc file (linux)
 3. start hadoop,kafka,spark,cassandra via terminal
 4. use docker for dependencies and version compatibility issues
-5. write the code in your local machine and submit it to spark application
-6. for clickstream data use dataset or make a clone of website like amazon to get clickstream data using flask(backend)
+5. write kafka producer and consumer code , kafka gets clickstream data from backend and spark will consume it for preprocessing
+6. write the code for data transformation like(groupby etc) and submit it to spark application
+7. for clickstream data use dataset or make a clone of website like amazon to get clickstream data using flask(backend)
